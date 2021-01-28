@@ -18,9 +18,9 @@ class Help extends Component {
                 list:data || []
             })
         })
-        checkLoginState().then(data=>{
-            console.log("登录状态:",data)
-        })
+        // checkLoginState().then(data=>{
+        //     console.log("登录状态:",data)
+        // })
         getLego().then(data=>{
             console.log("djshdjksh:",data)
         })
