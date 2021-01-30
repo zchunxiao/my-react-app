@@ -10,6 +10,7 @@ import {
   NavLink
 } from "react-router-dom";
 import routes from './router'
+import Counter from './components/Counter'
 
 function App() {
   return (
@@ -52,7 +53,7 @@ function App() {
                   <Redirect to="/index" from='/' exact /> 
                 </Switch>
               ))}
-           
+           <Counter/>
           </div>
         </Router>
 
