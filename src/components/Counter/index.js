@@ -1,8 +1,10 @@
 import {Component} from 'react'
 import { connect } from "react-redux";
 
+// Action Creator
+const increaseAction = { type: 'increase' }
+
 function mapStateToProps(state) {
-    console.log("dsdsa:",state)
     return {
       value: state.counter.count
     }
@@ -14,8 +16,7 @@ function mapDispatchToProps(dispatch) {
     }
 }
 
-// Action Creator
-const increaseAction = { type: 'increase' }
+
 
 class Counter extends Component {
     render() {
