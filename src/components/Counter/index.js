@@ -1,10 +1,10 @@
 import {Component} from 'react'
 import { connect } from "react-redux";
-import  {showMsg} from 'cxyyr';
+
 // Action Creator
 const increaseAction = { type: 'increase' }
 
-console.log("fdfds:",showMsg)
+
 function mapStateToProps(state) {
     return {
       value: state.counter.count
@@ -22,7 +22,7 @@ function mapDispatchToProps(dispatch) {
 class Counter extends Component {
     render() {
       const { value, onIncreaseClick } = this.props
-     // showMsg();
+
       return (
         <div>
           <span>{value}</span>
