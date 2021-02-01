@@ -9,12 +9,15 @@ import { Provider } from 'react-redux'
 // 绑定到body
 FastClick.attach(document.body);
 
-
-render((
+render(
+ 
+  (
   <Provider store={store}>
+
    <BrowserRouter>
       <App />
    </BrowserRouter>
-   </Provider>
+
+</Provider> 
 ), document.getElementById('root'))
 

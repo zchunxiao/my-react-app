@@ -31,7 +31,7 @@ class Counter extends Component {
   }
 
 
-  export default connect(
+export default connect(
   mapStateToProps,
   mapDispatchToProps
 )(Counter)
