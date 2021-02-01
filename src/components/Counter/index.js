@@ -1,10 +1,10 @@
 import {Component} from 'react'
 import { connect } from "react-redux";
-
+import { showMsg } from 'cxyyr'
 // Action Creator
 const increaseAction = { type: 'increase' }
 
-
+showMsg();
 function mapStateToProps(state) {
     return {
       value: state.counter.count
