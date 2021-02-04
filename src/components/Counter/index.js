@@ -4,6 +4,7 @@ import { showMsg } from 'cxyyr'
 // Action Creator
 const increaseAction = { type: 'increase' }
 
+console.log("fff:",require('cxyyr'))
 showMsg();
 function mapStateToProps(state) {
     return {
