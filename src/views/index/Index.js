@@ -21,7 +21,7 @@ class Index extends Component {
         const {list}= this.state;
         return (
             <div className="main-box">
-                主页 - 页面
+                主页 - 页面111
                <div>
                    <ul>
                    {list.map((item,index)=>{
